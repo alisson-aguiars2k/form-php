@@ -23,7 +23,7 @@
     <div class="form">
 
         <!-- Form-->
-        <form action="components/table.php" method="POST" name="Formulario" autocomplete="on">
+        <form action="components/registrationResult.php" method="POST" name="Formulario" autocomplete="on">
 
             <!-- Fieldset (grouping elements)-->
             <fieldset>
