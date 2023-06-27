@@ -1,0 +1,79 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1024px;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+input {
+    outline-color: aqua;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    margin: 10px 10px;
+} 
+
+/* Form Style */
+.form {
+    max-width: 100%;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    border: 2px solid black;
+    width: 512px;
+    max-height: 100%;
+    padding: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.501);
+}
+
+legend {
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+h1 {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form input[type="text"],
+[type="email"] {
+    width: 512px;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+form input[type="submit"] {
+    font-size: 16px;
+    padding: 10px;
+    border-color: aqua;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgba(0, 255, 255, 0.505);
+    transition: all 0.5s;
+}
